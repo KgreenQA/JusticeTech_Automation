@@ -9,7 +9,7 @@ import java.time.Duration;
 public class Wv_EFiling_SubmitComplaint {
 
     public ChromeOptions options = new ChromeOptions();
-    public static WebDriver wvEFilingDriver;
+    WebDriver wvEFilingDriver;
     WvEFiilingLogInPage eFilingLogin;
     WvEFilingHomePage eFilingHomePage;
     WvEfilingNewComplaintPage eCpPage;
